@@ -1,6 +1,6 @@
 input: .
 output: .retype
-url: # Add your website address here
+url: https://oddnimatronics.github.io/portfolio
 branding:
   title: "[o_x]"
   colors:
@@ -18,3 +18,6 @@ links:
 - text: Home
   link: /README.md
   icon: home
+
+editor:
+  enabled: false
