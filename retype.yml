@@ -1,0 +1,20 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: "[o_x]"
+  colors:
+    label:
+      text: "#6E4E20"
+      
+meta:
+  title: " - @oddeyemotion's Project Documentation"
+  
+links:
+- text: Github
+  link: https://github.com/oddnimatronics
+  icon: mark-github
+  
+- text: Home
+  link: /README.md
+  icon: home

@@ -1,0 +1,215 @@
+<style>
+@font-face {
+    font-family: 'coders';
+    src: url('https://raw.githubusercontent.com/oddeyemotion/odd/main/_includes/SVNCoderCrux.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dina';
+    src: url('https://raw.githubusercontent.com/zshoals/Dina-Font-TTF-Remastered/master/Fonts/DinaRemasterII.ttc');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.font-body {
+	font-family: 'coders' !important;
+}
+
+.dark .text-base {
+	font-size: 1.4rem;
+	text-shadow: 1.4px 1.4px #574C62;
+}
+
+.docs-markdown {
+	line-height: 1.2;
+}
+
+.dark .docs-markdown h1 {
+    color: rgb(255 183 203/var(--tw-text-opacity));
+	font-size: 3.7rem;
+	font-weight: 580;
+    line-height: 1;
+	text-shadow: 2.7px 2.7px #425168;
+}
+
+.dark .docs-markdown h2 {
+    color: rgb(255 255 255/var(--tw-text-opacity));
+	font-size: 3.3rem;
+	font-weight: 580;
+    line-height: 1;
+	text-shadow: 1.9px 1.9px #574C62;
+}
+
+.dark .docs-markdown h3 {
+    color: rgb(255 255 255/var(--tw-text-opacity));
+	font-size: 2.9rem;
+	font-weight: 580;
+    line-height: 1;
+	text-shadow: 1.7px 1.7px #414F6E;
+}
+
+.dark .docs-markdown h4 {
+    color: rgb(255 198 218/var(--tw-text-opacity));
+	font-size: 2.5rem;
+	font-weight: 580;
+    line-height: 1;
+	text-shadow: 1.5px 1.5px #414F6E;
+}
+
+.dark .docs-markdown h5 {
+    color: rgb(255 198 218/var(--tw-text-opacity));
+	font-size: 2.1rem;
+	font-weight: 550;
+    line-height: 1;
+	text-shadow: 1.3px 1.3px #574C62;
+}
+
+.dark .docs-markdown h6 {
+    color: rgb(255 198 218/var(--tw-text-opacity));
+	font-size: 1.8rem;
+	font-weight: 550;
+    line-height: 1;
+	text-shadow: 1.1px 1.1px #574C62;
+}
+
+.text-sm {
+	font-size: 1.3rem;
+}
+
+.text-xl {
+	font-size: 2rem;
+}
+
+.docs-emoji {
+	font-size: 1em;
+	line-height: 1.2;
+	vertical-align: -.1em;
+}
+
+.text-xs {
+	font-size: 1.4rem;
+}
+
+.h-6 {
+	height: 1.5rem;
+}
+
+.mt-1 {
+	margin-top: -0.6rem;
+}
+
+code, kbd, pre, samp {
+	font-family: 'dina' !important;
+}
+
+.docs-markdown code:not([class*=language-]):not(.member-signature), .docs-markdown kbd, .docs-markdown pre:not([class*=language-]):not(.member-signature) {
+	font-size: 80%;
+}
+
+a:link {
+  color: #FFC6DA;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFC6DA;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ACC0FF;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #F3B352;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.dark .dark\:text-blue-400{
+	color: rgb(255 198 218/var(--tw-text-opacity));
+}
+
+.dark .docs-markdown a:not(.no-link), .dark .docs-markdown h1 .header-anchor-trigger, .dark .docs-markdown h2 .header-anchor-trigger, .dark .docs-markdown h3 .header-anchor-trigger, .dark .docs-markdown h4 .header-anchor-trigger, .dark .docs-markdown h5 .header-anchor-trigger, .dark .docs-markdown h6 .header-anchor-trigger {
+	color: rgb(160 188 224/var(--tw-text-opacity));
+}
+
+.text-blue-600 {
+    color: rgb(255 198 218/var(--tw-text-opacity));
+}
+
+.py-4 {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+.break-normal {
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.docs-icon {
+    display: inline;
+    vertical-align: -.2em;
+    width: 0.8em;
+}
+
+a.no-link.inline-flex.items-center.justify-center.font-medium.leading-none.whitespace-nowrap.text-blue-600.bg-blue-100.border.border-blue-100.hover\:border-blue-300.dark\:hover\:bg-blue-200.transition-colors.duration-200.ease-out.h-6.px-2.text-xs.rounded-md {
+	padding-bottom: 0.8%;
+}
+
+span.no-link.inline-flex.items-center.justify-center.font-medium.leading-none.whitespace-nowrap.text-blue-600.bg-blue-100.h-6.px-2.text-xs.rounded-md{
+	padding-bottom: 0.8%;
+}
+
+.sm\:w-1\/2 {
+    width: 350px;
+}
+
+.dark .dark\:bg-blue-400 {
+    background-color: rgb(255 198 218/var(--tw-bg-opacity));
+}
+
+.dark span.text-sm.py-1\.5{
+	color: rgb(200 200 200) !important;
+	padding-bottom: .125rem;
+    padding-top: .125rem;
+}
+
+.dark .dark\:text-dark-300 {
+    color: rgb(200 200 200/var(--tw-text-opacity));
+}
+
+html.h-full.dark {
+	-webkit-text-size-adjust:100%;
+	font-size: 17px;
+	line-height: 1.3;
+	font-family: 'coders' !important;
+}
+
+.container.relative.flex.bg-white {
+	padding: 0 0px;
+}
+
+.dark .dark\:text-dark-400 {
+    color: rgb(160 188 224/var(--tw-text-opacity));
+}
+.dark .dark\:text-white {
+	color: rgb(255 198 218/var(--tw-text-opacity));
+}
+
+.text-blue-500 {
+    color: rgb(160 188 224/var(--tw-text-opacity));
+}
+
+.dark .docs-markdown table th {
+    color: rgb(200 200 200/var(--tw-text-opacity));
+}
+</style>
